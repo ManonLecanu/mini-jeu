@@ -1,0 +1,92 @@
+/* 1. réinitialisation de base pour éviter les styles par par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* 3; Titre principal */
+header h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 4. Zone d'affichage du score et du timer */
+.score-board {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.score-board p {
+  font-size: 18px;
+}
+
+#restart-btn {
+  padding: 8px 15px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background-color: #005fa3;
+}
+
+/* 5. Plateau de jeu */
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 450px; /* pour éviter que ça s'étale trop sur grand écran */
+}
+
+/* 6. Cartes */
+.card {
+  aspect-ratio: 1 / 1; /* garde les cartes carrées */
+  font-size: clamp(20px, 8vw, 40px); /* texte adaptatif */
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba (0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: transform 0.3s;
+}
+
+.card.flippped {
+  background-color: #ffeb3b;
+}
+
+.card.matched {
+  background-color: #90ee90;
+  cursor: default;
+}
+
+/* 7. Footer */
+footer {
+  margin-top: auto;
+  font-size: 14px;
+  color: #555;
+}
