@@ -1,4 +1,4 @@
-# Mni-jeu Memory 
+# Mini-jeu Memory 
 
 Un petit jeu de mémoire interactif en JavaScript.
 Objectif : montrer mes compétences en HTML, CSS et JavaScript, et déployer un projet interactif en ligne.
