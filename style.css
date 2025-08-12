@@ -52,16 +52,12 @@ header h1 {
 /* 5. Plateau de jeu */
 #game-board {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 10px;
-  width: 100%;
-  max-width: 450px; /* pour éviter que ça s'étale trop sur grand écran */
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
 }
 
 /* 6. Cartes */
 .card {
-  aspect-ratio: 1 / 1; /* garde les cartes carrées */
-  font-size: clamp(20px, 8vw, 40px); /* texte adaptatif */
   width: 100px;
   height: 100px;
   background-color: white;
