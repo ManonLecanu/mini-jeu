@@ -11,7 +11,7 @@ Objectif : montrer mes compétences en HTML, CSS et JavaScript, et déployer un 
 ---
 
 ## Aperçu
-[Aperçu du site](images/screenshot.png)
+[Aperçu du site](images/screenshot-mini-jeu.png)
 
 ---
 
