@@ -72,6 +72,19 @@ header h1 {
   transition: transform 0.3s;
 }
 
+@media (max-width: 600px) {
+  #game-board {
+    grid-template-columns: repeat(2, 80px);
+    grid-gap: 8px;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+  }
+}
+
 .card.flippped {
   background-color: #ffeb3b;
 }
