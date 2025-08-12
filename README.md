@@ -41,7 +41,7 @@ mini-jeu/
 - style.css
 - script.js
 - images/
-  - screenshot.png
+  - screenshot-mini-jeu.png
 - README.md
 
 ---
