@@ -16,9 +16,10 @@ Objectif : montrer mes compétences en HTML, CSS et JavaScript, et déployer un 
 ---
 
 ## Technologies utilisées
-![HTML5](https://img.shields.io/badge/-HTML5-orange?10go=htm15&1ogoColor=white&style=flat)
-![CSS3](https://img.shields.io/badge/-CSS3-blue?log0=css3&10goColor=white&style=flat)
-![Netlify](https://img.shields.io/badge/-Netlify=00C7B7?10g0=netlify&1ogoColor=white&style=flat)
+![HTML5](https://img.shields.io/badge/-HTML5-orange?logo=htm15&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-blue?logo=css3&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white&style=flat)
+![Netlify](https://img.shields.io/badge/-Netlify=00C7B7?logo=netlify&logoColor=white&style=flat)
 
 ---
 
